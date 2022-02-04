@@ -98,9 +98,6 @@ font-size: 20px;
 font-weight: bold;
 }
 
-#slogan-copy{
-
-}
 
 /*
 background-image: url("../design-portfolio/images/skyblue-hero.png");
@@ -304,13 +301,15 @@ flex-direction: column;
 color: white;
 }
 
-.contact-title{
+.contact-title-container{
 justify-content: left;
 }
 
+/*
 #contact{
 justify-content: left;
 }
+*/
 
 .FooterMidSection{
 margin-top: 5%;
@@ -340,7 +339,7 @@ padding: 5px;
 padding: 5px;
 }
 
-#contact{
+#contact-title{
 margin: auto;
 padding: 50px 0px 20px 0px;
 justify-content: left;
