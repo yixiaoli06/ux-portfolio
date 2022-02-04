@@ -6,6 +6,7 @@ margin: 0px;
 
 .nav li{
 display: inline-block;
+text-align: center;
 font-size: 18px;
 padding:20px 30px;
 color: white;
@@ -14,6 +15,7 @@ color: white;
 a {
 color: white;
 text-decoration: none;
+text-align: center;
 }
 
 a:hover{
@@ -83,9 +85,21 @@ background-color:#222222;
 max-width:100%;
 height: 400px;
 margin: 0px;
-background-color:#E4F6F8;
+background-color:#CEF3F8;;
 background-repeat: no-repeat;
 background-position: center;
+}
+
+.slogan{
+display: flex;
+justify-content: center;
+color:#024C6B;
+font-size: 20px;
+font-weight: bold;
+}
+
+#slogan-copy{
+
 }
 
 /*
@@ -127,7 +141,7 @@ color: black;
 .intro{
 display: flex;
 flex-direction: row;
-background-color: #E4F6F8;
+background-color: #CEF3F8;;
 }
 
 .photoContainer{
@@ -156,7 +170,7 @@ text-align: left;
 .flexContainer{
 display: flex;
 flex-direction: row;
-background-color: #E4F6F8;
+background-color: #CEF3F8;;
 color: black;
 }
 
@@ -183,6 +197,9 @@ padding: 15px;
 
 .MyWorkTitle{
 justify-content: center;
+background-color: #024C6B;
+color: white;
+padding: 0.5%;
 }
 
 .project-image{
@@ -281,8 +298,18 @@ background-color: #222222;
 }
 
 .FooterTopSection{
-align-items: left;
+display: flex;
+flex-direction: column;
+
 color: white;
+}
+
+.contact-title{
+justify-content: left;
+}
+
+#contact{
+justify-content: left;
 }
 
 .FooterMidSection{
@@ -313,8 +340,8 @@ padding: 5px;
 padding: 5px;
 }
 
-.contact{
-margin-top: 0px;
+#contact{
+margin: auto;
 padding: 50px 0px 20px 0px;
 justify-content: left;
 margin-left: 50px;
@@ -347,7 +374,7 @@ margin: 0px;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: #E4F6F8;
+background-color: #CEF3F8;
 }
 
 .ResumeImage:hover{
