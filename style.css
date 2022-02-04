@@ -10,6 +10,7 @@ text-align: center;
 font-size: 18px;
 padding:20px 30px;
 color: white;
+border-radius: 20px;
 }
 
 a {
@@ -23,7 +24,7 @@ color: white;
 }
 
 .li:hover {
-background-color:lightblue;
+background-color:skyblue;
 color:black;
 transition-duration: 0.4s;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -33,7 +34,8 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 width: 40%;
 margin: 0px;
 margin-left: auto;
-background-color:#024C6B;
+background-color:#2B82A7;
+border-radius: 20px;
 }
 
 h1 {
@@ -85,7 +87,7 @@ background-color:#222222;
 max-width:100%;
 height: 400px;
 margin: 0px;
-background-color:#CEF3F8;;
+background-image: url("../ux-portfolio/images/hero-texturized-water.png");
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -194,7 +196,7 @@ padding: 15px;
 
 .MyWorkTitle{
 justify-content: center;
-background-color: #024C6B;
+background-color: #2B82A7;
 color: white;
 padding: 0.5%;
 }
@@ -242,7 +244,7 @@ height: 70%;
 */
 
 .lowerButton{
-background-color:#024C6B;
+background-color:#2B82A7;
 color: white;
 font-style: bold;
 border-radius: 20px;
@@ -255,14 +257,14 @@ cursor: pointer;
 }
 
 .lowerButton:hover {
-background-color:lightblue;
+background-color:skyblue;
 color: white;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
 .footerButton{
-background-color:#024C6B;
+background-color:#2B82A7;
 border: 0px;
 border-radius: 20px;
 color: white;
@@ -279,7 +281,7 @@ transition-duration: 0.4s;
 }
 
 .footerButton:hover {
-background-color:lightblue;
+background-color:skyblue;
 color: white;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -383,7 +385,7 @@ transition: transform .4s;
 
 .ResumeButton{
 margin: 20px;
-background-color: #024C6B;
+background-color: #2B82A7;
 border: 0px;
 border-radius: 20px;
 color: white;
@@ -397,14 +399,14 @@ transition-duration: 0.4s;
 }
 
 .ResumeButton:hover {
-background-color:lightblue;
+background-color:skyblue;
 color: white;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .LinkedInButton{
 margin: 20px;
-background-color: #024C6B;
+background-color: #2B82A7;
 border: 0px;
 border-radius: 20px;
 color: white;
@@ -418,7 +420,7 @@ transition-duration: 0.4s;
 }
 
 .LinkedInButton:hover {
-background-color:lightblue;
+background-color:skyblue;
 color: white;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
